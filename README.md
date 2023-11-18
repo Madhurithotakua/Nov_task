@@ -6,6 +6,8 @@
 - Introduction
 - Problem Statement
 - Technologies used
+- Modules Used
+- Required Installations
 - Project flow
 - Components
 - Conclusion
@@ -65,9 +67,40 @@ A React hook used to create a mutable ref object to persist values across render
 ### react-icons (specifically `FaBars`, `FaTimes`)
 Icon components from React Icons library, used to display icons for navigation purposes in the Navbar component.
 
-## Reruired Installations:
+
+## Installations Required
 
 
+*To run the code, ensure you have installed the following npm packages:*
+
+- Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+To run the Navbar component, you'll need to install the following npm packages:
+```
+npm install react
+```
+- React Icons (specifically FaBars, FaTh, FaClone, FaSitemap, FaTable, FaFileAlt)
+Icon components from React Icons library for displaying various icons in the sidebar menu.
+- React Icons (specifically FaBars, FaTimes)
+Icon components from React Icons library, used for navigation purposes in the Navbar component.
+```
+npm install react-icons
+```
+- useState
+A React hook used for managing component-level state in functional components.No separate installation required. It's part of the React library.
+-React Chartjs 2 :React wrapper for Chart.js library used to create charts in React applications.
+```
+npm install react-chartjs-2 chart.js@latest
+
+```
+- React Router DOM (specifically NavLink, BrowserRouter)
+**NavLink**: Component used to create navigation links within the application, allowing for active link styling.
+**BrowserRouter**: Provides the functionality for routing in the React application, enabling the use of declarative routing.
+```
+npm install react-router-dom
+
+
+```
 ## Project flow:
 
 The First thing is to create 1 folders named *client* .In client I cretaed three sub folders named assests,components,pages.The folder structure is as follows.
