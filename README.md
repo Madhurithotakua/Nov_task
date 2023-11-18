@@ -44,7 +44,7 @@ Open your terminal or command prompt and use the `npx` command to create a new R
 npx create-react-app client
 ```
 
-## Modules Used
+## Modules Used:
 
 ### React
 The core library for building UI components in JavaScript.
@@ -76,7 +76,7 @@ A React hook used to create a mutable ref object to persist values across render
 Icon components from React Icons library, used to display icons for navigation purposes in the Navbar component.
 
 
-## Installations Required
+## Installations Required:
 
 *To run the code, ensure you have installed the following npm packages:*
 
@@ -112,7 +112,7 @@ This will be the webpage that has to be displayed on running the command and all
 
 ->Utilizing React.js, the frontend page seamlessly integrates a dynamic Navbar, Sidebar, Search bar, visually appealing Cards displaying essential information with images, interactive Piecharts, a structured Table, a comprehensive Form offering varied inputs, and a Footer enriched with content pertinent to the webpage, delivering a highly functional and engaging user experience.
 
-## Components
+## Components:
 
 ### Navbar
 
