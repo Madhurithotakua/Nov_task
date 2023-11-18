@@ -14,7 +14,7 @@
 
 ## Introduction:
   
-Step into the heart of cricketing history with our tribute to the ICC Men's Cricket World Cup held in 2011. Celebrating the exhilarating journey of triumph and passion, this website encapsulates the epic tournament where India emerged victorious, capturing hearts with iconic moments like Dhoni's historic six at Wankhede Stadium. Explore the glory of India's second World Cup win, relive the heroic performances of legends like Tendulkar and Dhoni, and delve into the behind-the-scenes magic that made this event an unforgettable chapter in cricket history by using the React components.
+Step into the heart of cricketing history with our tribute to the ICC Men's Cricket World Cup held in 2011. Celebrating the exhilarating journey of triumph and passion, this React-powered website magnificently encapsulates the epic tournament where India emerged victorious, captivating enthusiasts with iconic moments like Dhoni's historic six at Wankhede Stadium. Crafted meticulously using React components, this amazing website invites you to explore the glory of India's second World Cup win, providing an immersive and dynamic experience. Relive the heroics of legends like Tendulkar and Dhoni, and delve into the behind-the-scenes magic that rendered this event an indelible chapter in cricket history. Immerse yourself in an interactive journey that brings the splendor of cricket's pinnacle event alive on your screen, all powered by the versatility and agility of React technology.
 
 ## Problem Statement:
 
@@ -44,62 +44,56 @@ Open your terminal or command prompt and use the `npx` command to create a new R
 npx create-react-app client
 ```
 
-## Modules Used :
+## Modules Used
 
 ### React
 The core library for building UI components in JavaScript.
+
 ### react-router-dom
 - **Route**: A React component that renders some UI when its path matches the current URL.
 - **Routes**: A component that declares the different routes within the application and renders matching routes.
+
 ### react-icons (specifically `FaBars`, `FaTh`, `FaClone`, `FaSitemap`, `FaTable`, `FaFileAlt`)
 Icon components from React Icons library, used to display various icons in the sidebar menu.
+
 ### react-router-dom (specifically `NavLink`, `BrowserRouter`)
 - **NavLink**: Component used to create navigation links within the application, allowing for active link styling.
 - **BrowserRouter**: Provides the functionality for routing in the React application, enabling the use of declarative routing.
+
 ### useState
 A React hook used for managing component-level state in functional components.
+
 ### react-chartjs-2
 React wrapper for Chart.js library to create charts in React applications.
+
 ### chart.js/auto
 Latest version of Chart.js library to provide functionalities for creating various charts.
+
 ### useRef
 A React hook used to create a mutable ref object to persist values across renders without causing re-renders.
+
 ### react-icons (specifically `FaBars`, `FaTimes`)
 Icon components from React Icons library, used to display icons for navigation purposes in the Navbar component.
 
 
 ## Installations Required
 
-
 *To run the code, ensure you have installed the following npm packages:*
 
 - Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 To run the component, you'll need to install the following npm packages:
-```
-npm install react
-```
-- React Icons (specifically FaBars, FaTh, FaClone, FaSitemap, FaTable, FaFileAlt)
-Icon components from React Icons library for displaying various icons in the sidebar menu.
-- React Icons (specifically FaBars, FaTimes)
-Icon components from React Icons library, used for navigation purposes in the Navbar component.
-```
-npm install react-icons
-```
-- useState
-A React hook used for managing component-level state in functional components.No separate installation required. It's part of the React library.
-- React Chartjs 2 :React wrapper for Chart.js library used to create charts in React applications.
-```
-npm install react-chartjs-2 chart.js@latest
 
 ```
-- React Router DOM (specifically NavLink, BrowserRouter)
-**NavLink**: Component used to create navigation links within the application, allowing for active link styling.
-**BrowserRouter**: Provides the functionality for routing in the React application, enabling the use of declarative routing.
-```
-npm install react-router-dom
+npm install react          # Installs the core library for building UI components in JavaScript.
 
+npm install react-icons    # Installs icon components from React Icons library for displaying various icons.
+
+npm install react-chartjs-2 chart.js@latest   # Installs React wrapper for Chart.js library to create charts in React applications along with the latest Chart.js version.
+
+npm install react-router-dom   # Installs the necessary routing functionalities in the React application.
 ```
+
 ## Project flow:
 
 The First thing is to create 1 folders named *client* .In client I cretaed three sub folders named assests,components,pages.The folder structure is as follows.
