@@ -94,23 +94,24 @@ npm install react-chartjs-2 chart.js@latest   # Installs React wrapper for Chart
 npm install react-router-dom   # Installs the necessary routing functionalities in the React application.
 ```
 
-## Project flow:
+## Project Flow
 
-The First thing is to create 1 folders named *client* .In client I cretaed three sub folders named assests,components,pages.The folder structure is as follows.
-                
-![Screenshot 2023-11-17 105401](https://github.com/Madhurithotakua/Nov_task/assets/104493027/87d400af-f7bc-4a84-9197-1eb370e89305)
+The first step involves creating a folder named *client*. Within the *client* directory, three subfolders were created: *assets*, *components*, and *pages*. The folder structure is as depicted below:
 
-- For frontend we have used *React.js*
--> Initially navigate to the client folder and open the terminal using``` ctrl + shift + ` ``` in vs code or click on new terminal 
+![Folder Structure](https://github.com/Madhurithotakua/Nov_task/assets/104493027/87d400af-f7bc-4a84-9197-1eb370e89305)
 
-->Type cd client .It will navigate to the folder. Then type ``` npm install ```  The necessary files and node modules will be installed.
+For the frontend, React.js was employed:
 
-->We run the frontend part using the command ``` npm start ``` 
+1. Navigate to the *client* folder and access the terminal using ```Ctrl + Shift + ` ``` in VS Code or open a new terminal.
+2. Type `cd client` to navigate to the folder, then execute ```npm install```. This command installs necessary files and node modules.
+3. Initiate the frontend by using the command ```npm start```.
 
-This will be the webpage that has to be displayed on running the command and allowed to select or open Dashboard,Cards,Charts,Table,Form.
-![WhatsApp Image 2023-11-13 at 01 43 50_f320230f](https://github.com/Madhurithotakua/Nov_task/assets/104493027/c1171f36-e8e8-487e-8111-9b83a377098e)
+Upon execution, the webpage depicted below should be displayed, allowing selection or navigation to the Dashboard, Cards, Charts, Table, and Form.
 
-->Utilizing React.js, the frontend page seamlessly integrates a dynamic Navbar, Sidebar, Search bar, visually appealing Cards displaying essential information with images, interactive Piecharts, a structured Table, a comprehensive Form offering varied inputs, and a Footer enriched with content pertinent to the webpage, delivering a highly functional and engaging user experience.
+![Webpage Preview](https://github.com/Madhurithotakua/Nov_task/assets/104493027/c1171f36-e8e8-487e-8111-9b83a377098e)
+
+Leveraging React.js, the frontend seamlessly integrates a dynamic Navbar, Sidebar, Search bar, visually engaging Cards presenting essential information with images, interactive Piecharts, a structured Table showcasing data, a comprehensive Form providing diverse inputs, and a Footer enriched with content relevant to the webpage. This amalgamation delivers a highly functional and immersive user experience.
+
 
 ## Components:
 
